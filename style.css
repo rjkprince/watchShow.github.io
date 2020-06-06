@@ -12,7 +12,7 @@ body {
 #logo {
   width: 100px;
 }
-#watch-preview img {
+#img {
   width: 500px;
 }
 #watch-preview {
@@ -138,5 +138,71 @@ body {
   }
   to {
     transform: scale(1.2);
+  }
+}
+@media (max-width: 600px) {
+  #img {
+    width: 300px;
+  }
+  #title {
+    font-size: 20px;
+  }
+  #desc {
+    font-size: 10px;
+  }
+  #colors {
+    height: 25px;
+    width: 100%;
+  }
+  .color {
+    width: 60px;
+    height: 100%;
+    margin-right: 10px;
+  }
+  #features {
+    width: 80%;
+    height: 35px;
+    display: flex;
+  }
+  .feature {
+    padding: 0 10px;
+    height: 100%;
+    background-color: rgb(209, 209, 209);
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  .feature p {
+    font-size: 10px;
+    font-weight: 700;
+  }
+  #buy-btn {
+    padding: 10px 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  .container {
+    margin-top: 20px;
+  }
+  #time-feature {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  #heart-feature {
+    margin-top: 10px;
+  }
+  #heart-feature p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  #heart {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  #watch-preview {
+    margin-left: 30px;
+    margin-right: 50px;
   }
 }
