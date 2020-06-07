@@ -103,6 +103,7 @@ body {
   margin-top: 40px;
 }
 #time-feature {
+  width: 141px;
   position: absolute;
   color: #fff;
   font-size: 35px;
@@ -186,6 +187,7 @@ body {
     margin-top: 20px;
   }
   #time-feature {
+    margin-left: 18px;
     font-size: 25px;
     font-weight: 600;
   }
